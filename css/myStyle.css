@@ -1,0 +1,40 @@
+header {
+	text-align: center;
+	background: url("../images/backgroundImage.jpeg");
+	background-size: cover;
+	color: white;
+}
+ul {
+	padding: 10px;
+	background: red;
+}
+li {
+	display: inline;
+	padding: 0 10px 0 10px;
+	font-size: 22px;
+}
+.header-image {
+	border-radius: 50%;
+	margin: 40px 0 0 0;
+	border: 7px solid red;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+	font-size: 70px;
+}
+article {
+	max-width: 500px;
+	padding: 20px;
+	margin: 0 auto;
+}
+@media (max-width: 500px) {
+	body {
+		background: grey;
+	}
+}
