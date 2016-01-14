@@ -34,7 +34,11 @@ article {
 	margin: 0 auto;
 }
 @media (max-width: 500px) {
-	body {
-		background: grey;
+	h1 {
+		font-size: 36px;
+	}
+	li {
+		display: block;
+		padding: 5px;
 	}
 }
